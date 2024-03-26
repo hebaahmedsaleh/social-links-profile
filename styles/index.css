@@ -1,0 +1,93 @@
+body,
+p {
+  margin: 0;
+}
+body {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  justify-content: center;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(180, 180, 180, 0.45);
+  height: 40px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.attribution a {
+  color: white;
+  margin-inline-start: 4px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(180, 180, 180, 0.45);
+  color: white;
+  width: 30%;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 0.25rem;
+}
+
+.avatar img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.name {
+  font-size: large;
+}
+
+.location {
+  margin-top: 0.25rem;
+  color: rgb(179, 239, 119);
+}
+
+.job-title {
+  margin-top: 1rem;
+}
+
+.social-links {
+  margin-top: 0.5rem;
+}
+.social-btn {
+  outline: 0;
+  width: 100%;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgba(168, 166, 166, 0.845);
+  margin-bottom: 0.5rem;
+  border: 0;
+  border-radius: 0.125rem;
+  cursor: pointer;
+}
+.social-btn:hover {
+  background-color: rgb(179, 239, 119);
+  color: black;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
