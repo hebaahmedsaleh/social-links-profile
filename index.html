@@ -33,11 +33,11 @@
 
       <p class="job-title">"Front-end Engineer."</p>
       <div class="social-links">
-        <button class="social-btn"><a href="https://github.com/hebaahmedsaleh" target="_blank"> GitHub</a></button>
-        <button class="social-btn"><a href="https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ" target="_blank">Frontend Mentor</a></button>
-        <button class="social-btn"><a href="https://www.linkedin.com/in/heba-saleh-%F0%9F%87%B5%F0%9F%87%B8-935383105/" target="_blank">LinkedIn</a></button>
-        <button class="social-btn"><a href="https://twitter.com/hebaAsaleh" target="_blank">Twitter</a></button>
-        <button class="social-btn"><a href="#" target="_blank">Instagram</a></button>
+        <button class="social-btn" onclick="goTo('https://github.com/hebaahmedsaleh')"> GitHub</button>
+        <button class="social-btn" onclick="goTo('https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ')">Frontend Mentor</button>
+        <button class="social-btn" onclick="goTo('https://www.linkedin.com/in/heba-saleh-%F0%9F%87%B5%F0%9F%87%B8-935383105/')">LinkedIn</button>
+        <button class="social-btn" onclick="goTo('https://twitter.com/hebaAsaleh')">Twitter</button>
+        <button class="social-btn" onclick="goTo('/')">Instagram </button>
       </div>
     </div>
 
@@ -47,5 +47,10 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Heba Ahmad Saleh</a>.
     </div>
+    <script>
+      function goTo(siteLink){
+        window.open(siteLink, '_blank')
+      }
+    </script>
   </body>
 </html>
