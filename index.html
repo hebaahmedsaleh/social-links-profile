@@ -25,19 +25,45 @@
   </head>
   <body>
     <div id="container" role="main">
-      <div class="avatar" role="banner">
+      <div class="avatar" role="img" aria-label="personal photo">
         <img src="./imgs/me.jpeg" alt="profile-photo" />
       </div>
       <p class="name">Heba Saleh</p>
       <p class="location">Egypt, Cairo</p>
 
       <p class="job-title">"Front-end Engineer."</p>
-      <div class="social-links" role="contentinfo">
-        <button class="social-btn" onclick="goTo('https://github.com/hebaahmedsaleh')"> GitHub</button>
-        <button class="social-btn" onclick="goTo('https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ')">Frontend Mentor</button>
-        <button class="social-btn" onclick="goTo('https://www.linkedin.com/in/heba-saleh-%F0%9F%87%B5%F0%9F%87%B8-935383105/')">LinkedIn</button>
-        <button class="social-btn" onclick="goTo('https://twitter.com/hebaAsaleh')">Twitter</button>
-        <button class="social-btn" onclick="goTo('/')">Instagram </button>
+      <div class="social-links" role="navigation">
+        <button
+          role="link"
+          class="social-btn"
+          onclick="goTo('https://github.com/hebaahmedsaleh')"
+        >
+          GitHub
+        </button>
+        <button
+          role="link"
+          class="social-btn"
+          onclick="goTo('https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ')"
+        >
+          Frontend Mentor
+        </button>
+        <button
+          role="link"
+          class="social-btn"
+          onclick="goTo('https://www.linkedin.com/in/heba-saleh-%F0%9F%87%B5%F0%9F%87%B8-935383105/')"
+        >
+          LinkedIn
+        </button>
+        <button
+          role="link"
+          class="social-btn"
+          onclick="goTo('https://twitter.com/hebaAsaleh')"
+        >
+          Twitter
+        </button>
+        <button role="link" class="social-btn" onclick="goTo('/')">
+          Instagram
+        </button>
       </div>
     </div>
 
@@ -48,8 +74,8 @@
       >. Coded by <a href="#">Heba Ahmad Saleh</a>.
     </div>
     <script>
-      function goTo(siteLink){
-        window.open(siteLink, '_blank')
+      function goTo(siteLink) {
+        window.open(siteLink, "_blank");
       }
     </script>
   </body>
