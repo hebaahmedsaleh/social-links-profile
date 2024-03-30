@@ -38,11 +38,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(180, 180, 180, 0.45);
+  background-color: #1f1f1f;
   color: white;
   width: 30%;
+  min-width: 400px;
   border-radius: 1rem;
   padding: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
+    width: 90%;
+    min-width: initial;
+    margin: 0 1rem;
+
+  }
 }
 
 .avatar {
@@ -57,34 +67,36 @@ body {
 }
 
 .name {
-  font-size: large;
+  font-size: 1.2rem;
 }
 
 .location {
+  font-size: 1rem;
   margin-top: 0.25rem;
-  color: rgb(179, 239, 119);
+  color: #c3da6b;
 }
 
 .job-title {
-  margin-top: 1rem;
+  font-size: 0.75rem;
+  margin-top: 1.5rem;
 }
 
 .social-links {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 .social-btn {
   outline: 0;
   width: 100%;
   padding: 0.5rem;
   color: white;
-  background-color: rgba(168, 166, 166, 0.845);
+  background-color: #333333;
   margin-bottom: 0.5rem;
   border: 0;
   border-radius: 0.125rem;
   cursor: pointer;
 }
 .social-btn:hover {
-  background-color: rgb(179, 239, 119);
+  background-color: #c3da6b;
   color: black;
 }
 a {
